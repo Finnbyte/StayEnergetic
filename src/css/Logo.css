@@ -1,0 +1,32 @@
+.logo-container img {
+  width: 200px;
+  height: 200px;
+}
+
+.logo-container {
+  display: flex;
+  margin-top: 2vw;
+  margin-left: auto;
+  margin-right: 5vw;
+  align-items: center;
+}
+
+.logo-container span {
+  padding-right: 2vmin;
+  padding-bottom: 7vmin;
+  font-size: larger;
+  text-decoration: underline #282c34;
+}
+
+/* makes logo display responsively */
+@media screen and (max-width: 330px) {
+  .logo-container img {
+    width: 90px;
+    height: 90px;
+  } 
+
+  .logo-container span {
+    display: block;
+    float: right;
+  }
+}

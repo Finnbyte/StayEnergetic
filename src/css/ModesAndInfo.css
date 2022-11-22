@@ -1,0 +1,104 @@
+:root {
+    --w: 30vw;
+}
+
+.modeBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2vmin;
+    padding: 5vmin;
+    grid-template-rows: 1fr;
+    padding-bottom: 10cm;
+    padding-top: 0.2cm;
+}
+
+.modeBlock > .mode1, .mode2, .mode3 {
+    display: flex;
+/*     background-color: #21242B; */
+    flex-direction: column;
+    align-items: center;
+/*  box-shadow:  -15px 1px 42px 5px rgba(0, 0, 0, 1);
+    -webkit-box-shadow:  -15px 1px 42px 5px rgba(0, 0, 0, 1); */
+    padding-bottom: 1cm;
+    padding-top: 0.2cm;
+}
+
+.modeBlock select {
+    font-size: 0.9em;
+    background-color: #21242B;
+    width: var(--w);
+    padding: 10px;
+    color: white;
+}
+
+.modeBlock button {
+    background-color: #21242B;
+    border: 3px solid var(--green);
+    font-weight: bold;
+    font-size: 0.95em;
+    color: white;
+    width: var(--w);
+    padding: 10px;
+}
+
+.modeBlock button:hover {
+    background-color: #191c21;
+}
+
+.modeBlock button:disabled {
+    background-color: var(--green);
+}
+
+.infoBox {
+    grid-column-start: 2;
+    grid-row-start: 2;
+/*     background-color: #303643; */
+    padding: 0px;
+}
+
+.infoBox p, span {
+    text-align: left;
+}
+
+.infoBox a {
+    color: var(--green);
+}
+
+.infoBox ul {
+    padding-left: 5%;
+}
+
+.infoBox li {
+    text-align: left;
+}
+
+.modeBlock label {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+/* In case small screen width... */
+@media (max-width: 700px) {
+    .modeBlock {
+        display: block;
+        padding-bottom: 2vmin;
+    }
+
+    .modeBlock > .mode1, .mode2, .mode3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2cm;
+        padding-top: 0.2cm;
+        padding: 0;
+        margin-bottom: 4vmin;
+    }
+
+    .modeBlock select {
+    }
+
+    .modeBlock label {
+        font-size: 1.05em;
+    }
+}
