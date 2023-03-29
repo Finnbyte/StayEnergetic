@@ -75,8 +75,6 @@ export default function App() {
   return (
     <div className="App">
       <Logo/>
-
-
       <div className="modeBlock">
         <div className="mode1">
           <ModeBlock defModeValues={default_states.defMode1} modeValues={mode1} setModeValues={setMode1} labels={
@@ -120,7 +118,10 @@ export default function App() {
           <h3 style={{textAlign: "left"}}>About the project</h3>
           <p>
             This project was made by <a href="https://www.github.com/finnbyte">this guy</a> and was made as a final project for a React class at TAI.
-            <br/><br/>
+            <br/>
+	    I had genuine need for a website like this, but most already existing webpages were filled with ads and other junk. So I made my own!
+
+	    <br/><br/>
 
             Links for this project:<br/>
             <span style={{paddingLeft: "2vw"}}>Repo: <a href="https://www.github.com/finnbyte/stayenergetic">StayEnergetic</a> over at Github.</span>
