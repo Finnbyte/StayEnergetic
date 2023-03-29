@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/stayenergetic/static/css/main.acf12107.css",
+    "main.js": "/stayenergetic/static/js/main.06d76c26.js",
+    "static/media/moon.png": "/stayenergetic/static/media/moon.a11b1e35f1cb9dccb88c.png",
+    "index.html": "/stayenergetic/index.html",
+    "main.acf12107.css.map": "/stayenergetic/static/css/main.acf12107.css.map",
+    "main.06d76c26.js.map": "/stayenergetic/static/js/main.06d76c26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acf12107.css",
+    "static/js/main.06d76c26.js"
+  ]
+}
