@@ -100,7 +100,6 @@ export default function App() {
 
         <div className="infoBox">
           <h3>Information</h3>
-          <hr></hr>
           <p>
             StayEnergetic improves the <span className="important">quality</span> and <span className="important">duration</span> of your sleep by telling you when you should wake up or go to sleep. Not only does that lead to better quality sleep, it also encourages you to go to bed earlier.
             It will also help in determining your nap lengths!
