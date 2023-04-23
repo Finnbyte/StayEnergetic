@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import CalcResults from "./components/CalcResults";
 import * as timeutil from "./logic/timeUtils";
 import ModeBlock from "./components/ModeBlock";
-import * as default_states from "./default_mode_states.js";
+import * as default_states from "./defaults/mode_states";
 
 /* CSS */
 import "./css/App.css";
