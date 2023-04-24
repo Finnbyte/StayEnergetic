@@ -1,11 +1,9 @@
-import logoImg from "../moon.png";
-
 export default function Logo() {
     return (
         <>
         <div className='logo-container'>
             <span>StayEnergetic</span>
-            <img src={logoImg} className="App-logo" alt="Logo of this website project"/>
+            <img src={process.env.PUBLIC_URL + "/moon.png"} className="App-logo" alt="Logo of this website project"/>
         </div>
         <span>
             <br></br>
