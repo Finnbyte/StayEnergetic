@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/StayEnergetic/static/css/main.894c9ba6.css",
-    "main.js": "/StayEnergetic/static/js/main.3b23cf15.js",
-    "static/media/moon.png": "/StayEnergetic/static/media/moon.a11b1e35f1cb9dccb88c.png",
+    "main.js": "/StayEnergetic/static/js/main.d0801c20.js",
     "index.html": "/StayEnergetic/index.html",
     "main.894c9ba6.css.map": "/StayEnergetic/static/css/main.894c9ba6.css.map",
-    "main.3b23cf15.js.map": "/StayEnergetic/static/js/main.3b23cf15.js.map"
+    "main.d0801c20.js.map": "/StayEnergetic/static/js/main.d0801c20.js.map"
   },
   "entrypoints": [
     "static/css/main.894c9ba6.css",
-    "static/js/main.3b23cf15.js"
+    "static/js/main.d0801c20.js"
   ]
 }
