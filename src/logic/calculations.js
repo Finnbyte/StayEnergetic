@@ -1,25 +1,25 @@
+import { addMinutes, subMinutes } from "date-fns";
 import * as timeutils from "./timeUtils";
 
 const sleepCycles = 6;
 
 export function wakeUpAtTimes(time) {
-    var arr = []
+    const arr = []
     let newTime = new Date(time);
 
     for (let i = 0; i < sleepCycles; i++) {
-        newTime.setHours(newTime.getHours() - 1, newTime.getMinutes() - 30);
+        newTime = subMinutes(time, 90)
         arr.push(`${newTime.getHours()}:${timeutils.fixMinutes(newTime.getMinutes())}`)
     }
     return arr.reverse()
 }
 
 export function goToSleepAtTimes(time) {
-    var arr = [];
+    const arr = [];
     let newTime = new Date(time);
 
     for (let i = 0; i < sleepCycles; i++) {
-        newTime.setHours(newTime.getHours() + 1, newTime.getMinutes() + 30);
-        //const mins = time.getMinutes() - decreaseTime;
+        newTime = addMinutes(newTime, 90)
         arr.push(`${newTime.getHours()}:${timeutils.fixMinutes(newTime.getMinutes())}`)
     }
     return arr.reverse()
@@ -34,7 +34,7 @@ export function powerNapUntil(time) {
     };
 
     const napDuration = generateNapDuration(25, 30);
-    newTime.setHours(newTime.getHours(), newTime.getMinutes() + napDuration);
+    newTime = addMinutes(newTime, napDuration)
 
     /* Check if user wanted to nap past 7PM and warn them if that's the case */
     if (newTime.getHours() >= 19) {
