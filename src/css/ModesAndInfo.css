@@ -5,6 +5,7 @@
 .modeBlock {
     display: flex;
     justify-content: center;
+    margin: 0 15vw 5vw 15vw;
     gap: 50px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -43,7 +44,7 @@
 }
 
 .infoBox {
-/*     background-color: #303643; */
+    background: #303643; 
     display: flex;
     padding: 0 15vw 0 15vw;
     flex-direction: column;
