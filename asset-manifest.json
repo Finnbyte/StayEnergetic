@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/StayEnergetic/static/css/main.1262fa68.css",
-    "main.js": "/StayEnergetic/static/js/main.4a01f3aa.js",
+    "main.css": "/StayEnergetic/static/css/main.894c9ba6.css",
+    "main.js": "/StayEnergetic/static/js/main.3b23cf15.js",
     "static/media/moon.png": "/StayEnergetic/static/media/moon.a11b1e35f1cb9dccb88c.png",
     "index.html": "/StayEnergetic/index.html",
-    "main.1262fa68.css.map": "/StayEnergetic/static/css/main.1262fa68.css.map",
-    "main.4a01f3aa.js.map": "/StayEnergetic/static/js/main.4a01f3aa.js.map"
+    "main.894c9ba6.css.map": "/StayEnergetic/static/css/main.894c9ba6.css.map",
+    "main.3b23cf15.js.map": "/StayEnergetic/static/js/main.3b23cf15.js.map"
   },
   "entrypoints": [
-    "static/css/main.1262fa68.css",
-    "static/js/main.4a01f3aa.js"
+    "static/css/main.894c9ba6.css",
+    "static/js/main.3b23cf15.js"
   ]
 }
