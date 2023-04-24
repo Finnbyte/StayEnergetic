@@ -96,14 +96,15 @@ export default function App() {
           }/>
           {mode3.showResults ? <CalcResults mode={3} twentyFourHourTime={mode3.twentyFourHourTime}/> : null}
         </div>
+      </div>
 
 
-        <div className="infoBox">
-          <h3>Information</h3>
-          <p>
-            StayEnergetic improves the <span className="important">quality</span> and <span className="important">duration</span> of your sleep by telling you when you should wake up or go to sleep. Not only does that lead to better quality sleep, it also encourages you to go to bed earlier.
-            It will also help in determining your nap lengths!
-            <br/><br/>
+      <div className="infoBox">
+        <h3 style={{ fontSize: "1.5em" }}>Information</h3>
+        <p>
+          StayEnergetic improves the <span className="important">quality</span> and <span className="important">duration</span> of your sleep by telling you when you should wake up or go to sleep. Not only does that lead to better quality sleep, it also encourages you to go to bed earlier.
+          It will also help in determining your nap lengths!
+          <br/><br/>
 
             StayEnergetic works by giving you 6 times, each tied to it's own sleep cycle. <span className="important">One sleep cycle lasts for about 90 minutes.</span> If you wake up during a cycle, <span className="important"> you will feel more tired during the day</span>.
             <br/><br/>
@@ -127,6 +128,5 @@ export default function App() {
           </p>
         </div>
       </div>
-    </div>
   );
 }
