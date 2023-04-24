@@ -8,7 +8,7 @@ export function wakeUpAtTimes(time) {
     let newTime = new Date(time);
 
     for (let i = 0; i < sleepCycles; i++) {
-        newTime = subMinutes(time, 90)
+        newTime = subMinutes(newTime, 90)
         arr.push(`${newTime.getHours()}:${timeutils.fixMinutes(newTime.getMinutes())}`)
     }
     return arr.reverse()
