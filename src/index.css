@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    display: inline-block;
+    padding: 0.8rem;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.5s; /* add this line */
+}
+
+.nav-link span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.nav-link span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -30px;
+    right: -20px;
+    transition: 0.5s;
+}
+.nav-link:hover {
+    background-color: #f7c2f9;
+}
+.nav-link:hover span {
+    padding-right: 25px;
+}
+.nav-link:hover span:after {
+    opacity: 1;
+    right: 0;
+}
